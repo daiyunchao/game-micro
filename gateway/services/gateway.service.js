@@ -21,6 +21,11 @@ broker.createService({
         routes: [
             {
                 path: "/users",
+                //拦截器:
+                onBeforeCall(ctx,route,req,event){
+                    console.log("in onBeforeCall");
+                    throw new Error("未经授权的访问");
+                },
                 aliases: {
                     "GET /": "users.list",
                     "GET /:id": "users.get",
