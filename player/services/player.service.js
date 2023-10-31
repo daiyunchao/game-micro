@@ -1,0 +1,1 @@
+const {ServiceBroker} = require('moleculer');
