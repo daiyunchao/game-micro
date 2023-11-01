@@ -16,3 +16,7 @@ docker run -d -p 8500:8500 --restart=always --name=consul consul:1.6.1 agent -se
 docker pull nats
 docker run -p 4222:4222 --name nats-server -d nats
 ```
+
+
+#### 待改进的点:
+- 服务之间也需要API文档,不像`protobuff`有IDE文件,可改进
