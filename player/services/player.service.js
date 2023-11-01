@@ -6,6 +6,7 @@ const nats = NATS.connect();
 
 // 创建服务代理
 const broker = new ServiceBroker({
+    nodeID:"player",
     transporter: "NATS",
     transporterOptions: {
         nats: nats,
@@ -14,12 +15,12 @@ const broker = new ServiceBroker({
 
 // 创建用户服务
 broker.createService({
-    name: "users",
+    name: "player",
     actions: {
         list(ctx) {
             // 返回所有用户的逻辑
             const users = [
-                { id: 1, name: "John Doe", email: "john.doe@example.com" },
+                { id: 1, name: "Joh11n Doe", email: "john.doe@example.com" },
                 { id: 2, name: "Jane Smith", email: "jane.smith@example.com" },
                 { id: 3, name: "Bob Johnson", email: "bob.johnson@example.com" },
             ];
