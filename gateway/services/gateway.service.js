@@ -33,11 +33,11 @@ broker.createService({
                     req.body = { data: dataStr }
                 },
                 aliases: {
-                    "POST /list": "users.list",
-                    "GET /:id": "users.get",
-                    "POST /": "users.create",
-                    "PUT /:id": "users.update",
-                    "DELETE /:id": "users.remove",
+                    "POST /list": "api.list",
+                    "GET /:id": "api.get",
+                    "POST /": "api.create",
+                    "PUT /:id": "api.update",
+                    "DELETE /:id": "api.remove",
                 },
                 onAfterCall(ctx, route, req, res, data){
                     // Auth.encodeData(req,data);
