@@ -13,7 +13,7 @@ class Auth {
         if (!req || !req.headers || !req.headers.app_id) {
             return new Error(401, "请求异常")
         }
-        if (req.headers.appId !== AppConfig.app_id) {
+        if (req.headers.app_id != AppConfig.appId) {
             return new Error(401, "请求异常")
         }
         var success =new Error().setSuccess();

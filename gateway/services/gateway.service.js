@@ -9,6 +9,7 @@ const nats = NATS.connect();
 
 // 创建服务代理
 const broker = new ServiceBroker({
+    nodeID: "gateway",
     transporter: {
         type: "NATS",
         client: nats,
@@ -18,13 +19,13 @@ const broker = new ServiceBroker({
 // 创建网关服务
 broker.createService({
     mixins: [ApiGatewayService],
-
     settings: {
         routes: [
             {
-                path: "/users",
+                path: "/api",
                 //拦截器:
                 onBeforeCall(ctx, route, req, event) {
+                    console.log("1111");
                     let error = Auth.requestAuth(req);
                     if (error.code !== 0) {
                         throw new Error(error.msg);
@@ -33,13 +34,9 @@ broker.createService({
                     req.body = { data: dataStr }
                 },
                 aliases: {
-                    "POST /list": "api.list",
-                    "GET /:id": "api.get",
-                    "POST /": "api.create",
-                    "PUT /:id": "api.update",
-                    "DELETE /:id": "api.remove",
+                    "POST /:module/:action": "api.request"
                 },
-                onAfterCall(ctx, route, req, res, data){
+                onAfterCall(ctx, route, req, res, data) {
                     // Auth.encodeData(req,data);
                     return data;
                 }
