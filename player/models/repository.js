@@ -14,6 +14,7 @@ class Repository {
     async getPlayerInfoByDeviceId(deviceId) {
         let playerCollection = this.getPlayerCollection();
         let playerInfo = await playerCollection.findOne({ "deviceId": deviceId });
+        return playerInfo;
     }
     async createPlayerInfo(deviceId) {
         let playerCollection = this.getPlayerCollection();
