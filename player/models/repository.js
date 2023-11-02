@@ -15,6 +15,10 @@ class Repository {
         let playerCollection = this.getPlayerCollection();
         let playerInfo = await playerCollection.findOne({ "deviceId": deviceId });
         let newPlayerInfo = new Player();
+        if (!playerInfo) {
+            return playerInfo;
+        }
+        console.log("playerInfo:",playerInfo);
         newPlayerInfo.constructPlayer(playerInfo);
         return newPlayerInfo;
     }
@@ -24,6 +28,12 @@ class Repository {
         let playerInfo = new Player(deviceId, tools.generateRandomNumber(), initPlayerData);
         await playerCollection.insertOne(playerInfo);
         return playerInfo;
+    }
+    async updatePlayerInfo(playerId, playerData) {
+        let playerCollection = this.getPlayerCollection();
+        let filter = { "playerId": playerId }
+        let update = { $set: { "playerData": playerData } }
+        await playerCollection.updateOne(filter, update)
     }
 }
 

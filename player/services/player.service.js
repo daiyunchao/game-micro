@@ -24,10 +24,13 @@ broker.createService({
     },
     actions: {
         async getPlayerInfoByDeviceId(ctx) {
-            return await Server.getPlayerInfoByDeviceId(ctx.params.deviceId)
+            return await Server.getPlayerInfoByDeviceId(ctx.params.deviceId);
         },
-        async createPlayerInfo(ctx){
-            return await Server.createPlayerInfo(ctx.params.deviceId)
+        async createPlayerInfo(ctx) {
+            return await Server.createPlayerInfo(ctx.params.deviceId);
+        },
+        async uploadPlayerData(ctx) {
+            return await Server.uploadPlayerData(ctx.params.playerId, ctx.params.playerData);
         }
     }
 });
@@ -40,6 +43,6 @@ broker.start().then(async () => {
         console.error("连接数据失败,进程退出");
         process.exit();
     }
-    
+
     console.log("User service started!");
 });

@@ -10,6 +10,9 @@ class Server {
     async createPlayerInfo(deviceId) {
         return await repository.createPlayerInfo(deviceId);
     }
+    async uploadPlayerData(playerId, playerData) {
+        return await repository.updatePlayerInfo(playerId, playerData);
+    }
 }
 
 module.exports = new Server();
