@@ -5,7 +5,7 @@ module.exports = {
         script: "services/api.service.js",
         exec_mode: "cluster",
         autorestart: true,
-        watch: true,
+        watch: false,
         max_memory_restart: "1G",
         env: {
           NODE_ENV: "production",
@@ -17,7 +17,7 @@ module.exports = {
         script: "services/api.service.js",
         exec_mode: "cluster",
         autorestart: true,
-        watch: true,
+        watch: false,
         max_memory_restart: "1G",
         env: {
           NODE_ENV: "production",
@@ -29,7 +29,7 @@ module.exports = {
         script: "services/api.service.js",
         exec_mode: "cluster",
         autorestart: true,
-        watch: true,
+        watch: false,
         max_memory_restart: "1G",
         env: {
           NODE_ENV: "production",
