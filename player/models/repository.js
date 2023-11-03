@@ -22,6 +22,19 @@ class Repository {
         newPlayerInfo.constructPlayer(playerInfo);
         return newPlayerInfo;
     }
+
+    async getPlayerInfoByPlayerId(playerId) {
+        let playerCollection = this.getPlayerCollection();
+        let playerInfo = await playerCollection.findOne({ "playerId": playerId });
+        let newPlayerInfo = new Player();
+        if (!playerInfo) {
+            return playerInfo;
+        }
+        console.log("playerInfo:",playerInfo);
+        newPlayerInfo.constructPlayer(playerInfo);
+        return newPlayerInfo;
+    }
+
     async createPlayerInfo(deviceId) {
         let playerCollection = this.getPlayerCollection();
         let initPlayerData = JSON.stringify({ level: 0, star: 0 });

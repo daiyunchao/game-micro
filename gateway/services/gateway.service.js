@@ -20,6 +20,7 @@ const broker = new ServiceBroker({
 broker.createService({
     mixins: [ApiGatewayService],
     settings: {
+        prot:3000,
         routes: [
             {
                 path: "/api",

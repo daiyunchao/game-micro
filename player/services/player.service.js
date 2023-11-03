@@ -26,6 +26,9 @@ broker.createService({
         async getPlayerInfoByDeviceId(ctx) {
             return await Server.getPlayerInfoByDeviceId(ctx.params.deviceId);
         },
+        async getPlayerInfoByPlayerId(ctx) {
+            return await Server.getPlayerInfoByPlayerId(ctx.params.playerId);
+        },
         async createPlayerInfo(ctx) {
             return await Server.createPlayerInfo(ctx.params.deviceId);
         },

@@ -7,6 +7,9 @@ class Server {
     async getPlayerInfoByDeviceId(deviceId) {
         return await repository.getPlayerInfoByDeviceId(deviceId);
     }
+    async getPlayerInfoByPlayerId(playerId) {
+        return await repository.getPlayerInfoByPlayerId(playerId);
+    }
     async createPlayerInfo(deviceId) {
         return await repository.createPlayerInfo(deviceId);
     }
