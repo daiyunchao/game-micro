@@ -52,12 +52,13 @@ broker.createService({
                         const user = {
                             username: username
                         };
-                        const token = jwt.sign(user, jwtKey, {
-                            expiresIn: "1h"
-                        });
-                        if (data) {
+                        if (data && data.code === 0) {
+                            const token = jwt.sign(user, jwtKey, {
+                                expiresIn: "1h"
+                            });
                             data.token = token;
                         }
+
                     }
                     return data;
                 }

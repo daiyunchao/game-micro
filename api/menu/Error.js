@@ -10,6 +10,11 @@ class Error {
         this.data = data;
         return this;
     }
+    setServerError(){
+        this.code = 500;
+        this.msg = "服务器错误";
+        return this;
+    }
 }
 
 module.exports = Error
