@@ -8,7 +8,7 @@ const nats = NATS.connect();
 
 // 创建服务代理
 const broker = new ServiceBroker({
-    nodeID: "api",
+    nodeID: process.env.NODE_ID,
     transporter: "NATS",
     transporterOptions: {
         nats: nats,

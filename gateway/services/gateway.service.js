@@ -9,7 +9,7 @@ const nats = NATS.connect();
 
 // 创建服务代理
 const broker = new ServiceBroker({
-    nodeID: "gateway",
+    nodeID: process.env.NODE_ID,
     transporter: {
         type: "NATS",
         client: nats,
