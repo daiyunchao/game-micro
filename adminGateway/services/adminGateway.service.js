@@ -15,8 +15,22 @@ const broker = new ServiceBroker({
         type: "NATS",
         client: nats,
     },
+    logger: {
+        type: "File",
+        options: {
+            level: "info",
+            folder: "../logs",
+            filename: "moleculer-{date}.log",
+            formatter: "json",
+            objectPrinter: null,
+            eol: "\n",
+            interval: 1 * 1000
+        }
+    }
 });
 const jwtKey = "game_micro_jwt";
+
+const myLogger = broker.getLogger('adminGatewayLogger');
 
 // 创建网关服务
 broker.createService({
@@ -30,16 +44,20 @@ broker.createService({
                 async onBeforeCall(ctx, route, req, event) {
                     let error = Auth.requestAuth(req);
                     if (error.code !== 0) {
+                        myLogger.error(`adminRequest: ${ctx.requestID} validate app_id error`);
                         throw new Error(error.msg);
                     }
+                    let module = req.$params.module;
                     let action = req.$params.action;
                     if (action !== "login") {
                         //非login,验证token
                         error = await Auth.requestToken(req, jwtKey);
                         if (error.code !== 0) {
+                            myLogger.error(`adminRequest: ${ctx.requestID} validate token error`);
                             throw new Error(error.msg);
                         }
                     }
+                    myLogger.info(`adminRequest: ${ctx.requestID} start , module: ${module}, action ${action},params: %j`, req.$params);
                 },
                 aliases: {
                     "POST /:module/:action": "adminApi.request"
@@ -60,6 +78,7 @@ broker.createService({
                         }
 
                     }
+                    myLogger.info(`adminRequest: ${ctx.requestID} finish , module: ${module}, action ${action},res: %j`, data);
                     return data;
                 }
             },

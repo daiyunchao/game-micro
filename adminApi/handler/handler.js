@@ -1,6 +1,7 @@
 const Error = require('../menu/Error');
 class Handler {
     async login(ctx, broker) {
+        const myLogger = broker.getLogger('adminApiLogger');
         let username = ctx.params.username;
         let password = ctx.params.password;
         let error = new Error()
@@ -11,6 +12,7 @@ class Handler {
         }
         error.code = 401;
         error.msg = "用户名或密码错误"
+        myLogger.error(`adminRequest:${ctx.requestID} login Error`);
         return error;
     }
     async getPlayerInfoByDeviceIdOrPlayerId(ctx, broker) {

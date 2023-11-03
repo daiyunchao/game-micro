@@ -1,6 +1,7 @@
 const Error = require('../menu/Error');
 class Handler {
     async login(ctx, broker) {
+        const myLogger = broker.getLogger('ApiLogger');
         let error = new Error();
         try {
             let playerInfo = await broker.call('player.getPlayerInfoByDeviceId', { "deviceId": ctx.params.deviceId });
@@ -11,7 +12,7 @@ class Handler {
             error.setSuccess(playerInfo);
         } catch (err) {
             error.setServerError();
-            //TODO 日志
+            myLogger.error(`request:${ctx.requestID} 登录出现错误, err: %j`, err);
         }
         return error;
     }
@@ -23,7 +24,7 @@ class Handler {
             error.setSuccess({});
         } catch (err) {
             error.setServerError();
-            //TODO 日志
+            myLogger.error(`request:${ctx.requestID} 上传出现错误, err: %j`, err);
         }
         return error;
     }
@@ -35,7 +36,7 @@ class Handler {
             error.setSuccess({});
         } catch (err) {
             error.setServerError();
-            //TODO 日志
+            myLogger.error(`request:${ctx.requestID} 更新排行榜数据出现错误, err: %j`, err);
         }
         return error;
     }
@@ -47,7 +48,7 @@ class Handler {
             error.setSuccess({ list });
         } catch (err) {
             error.setServerError();
-            //TODO 日志
+            myLogger.error(`request:${ctx.requestID} 获取排行榜列表出现错误, err: %j`, err);
         }
         return error;
     }

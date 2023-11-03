@@ -1,0 +1,1217 @@
+{"ts":1699012382095,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Node ID: adminGateway_002","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382096,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382096,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382114,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382116,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382117,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699012382117,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382129,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382129,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382150,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382150,"level":"info","msg":"","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382152,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_002","ns":"","mod":"transit"}
+{"ts":1699012382159,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699012382165,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382166,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382167,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382168,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382169,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382169,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382170,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382170,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382172,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382173,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382173,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382670,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382671,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699012382673,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382674,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012382675,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382675,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 525ms.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Node ID: adminGateway_001","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382095,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382096,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382096,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382114,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382116,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382117,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699012382117,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012382129,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382129,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382150,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382150,"level":"info","msg":"","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382152,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_001","ns":"","mod":"transit"}
+{"ts":1699012382159,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699012382166,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382167,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382168,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382169,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382169,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382170,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382170,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382171,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382173,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382173,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382174,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382671,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382671,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699012382673,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382674,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012382674,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699012382675,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 525ms.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699012383680,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699012383681,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699012399241,"level":"info","msg":"=> POST /admin/login","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012399258,"level":"info","msg":"adminRequest: 7471822f-5ebb-4445-8ae8-a56f1b0d10a7 start , module: admin, action login","nodeID":"adminGateway_002","ns":"","mod":"adminGatewayLogger"}
+{"ts":1699012399258,"level":"info","msg":"   Call 'adminApi.request' action","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699012399264,"level":"info","msg":"adminRequest: 7471822f-5ebb-4445-8ae8-a56f1b0d10a7 finish , module: admin, action login","nodeID":"adminGateway_002","ns":"","mod":"adminGatewayLogger"}
+{"ts":1699012399266,"level":"info","msg":"<= 200 POST /admin_api/admin/login [+25.365 ms]","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013127326,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013127328,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013127613,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013127620,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013127896,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013127897,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013127326,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013127328,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013127613,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013127620,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013127896,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013127897,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013128151,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013128165,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013128421,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013128441,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013128729,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128729,"level":"info","msg":"API Gateway stopped!","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128729,"level":"info","msg":"Service 'api' stopped.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128732,"level":"info","msg":"NATS connection closed.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013128733,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013127906,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127907,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127907,"level":"info","msg":"Node ID: api_002","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127908,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127908,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127910,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127933,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127935,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127937,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013127937,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013127950,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_002","ns":"","mod":"transit"}
+{"ts":1699013127958,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013127965,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127965,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127966,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127967,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127967,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127968,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127969,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128151,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128165,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128421,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128441,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128463,"level":"info","msg":"'$node' service is registered.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128464,"level":"info","msg":"'api' service is registered.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128464,"level":"info","msg":"Service '$node' started.","nodeID":"api_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128464,"level":"info","msg":"Service 'api' started.","nodeID":"api_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128464,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 517ms.","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128731,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013127908,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127908,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127908,"level":"info","msg":"Node ID: api_001","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127909,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127910,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127911,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127930,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127932,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127934,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013127934,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013127947,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_001","ns":"","mod":"transit"}
+{"ts":1699013127955,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013127961,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127962,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127962,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127964,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127964,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127965,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013127966,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128152,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128165,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128421,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128441,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128462,"level":"info","msg":"'$node' service is registered.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128462,"level":"info","msg":"'api' service is registered.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128462,"level":"info","msg":"Service '$node' started.","nodeID":"api_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128462,"level":"info","msg":"Service 'api' started.","nodeID":"api_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128462,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 517ms.","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128731,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013128151,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013128165,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013128421,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013128441,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013128731,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013128945,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128946,"level":"info","msg":"API Gateway stopped!","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128946,"level":"info","msg":"Service 'api' stopped.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128949,"level":"info","msg":"NATS connection closed.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013128950,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013128065,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128065,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128065,"level":"info","msg":"Node ID: api_003","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128066,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128066,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128068,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128082,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128083,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128084,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013128084,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128095,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_003","ns":"","mod":"transit"}
+{"ts":1699013128104,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013128110,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128110,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128112,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128113,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128113,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128114,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128115,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128151,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128165,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128421,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128441,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128618,"level":"info","msg":"'$node' service is registered.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128618,"level":"info","msg":"'api' service is registered.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128618,"level":"info","msg":"Service '$node' started.","nodeID":"api_003","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128618,"level":"info","msg":"Service 'api' started.","nodeID":"api_003","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128619,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 526ms.","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128731,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128948,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013128342,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128342,"level":"info","msg":"Namespace: <not defined>","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128342,"level":"info","msg":"Node ID: gateway_001","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128343,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128343,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128345,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128361,"level":"info","msg":"Validator: FastestValidator","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128363,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128364,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013128364,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128377,"level":"info","msg":"API Gateway server created.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128378,"level":"info","msg":"Register route to '/api'","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128402,"level":"info","msg":"    POST /api/:module/:action => api.request","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128402,"level":"info","msg":"","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128406,"level":"info","msg":"Connecting to the transporter...","nodeID":"gateway_001","ns":"","mod":"transit"}
+{"ts":1699013128416,"level":"info","msg":"NATS client v2 is connected.","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013128422,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128425,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128426,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128428,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128442,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128731,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128922,"level":"info","msg":"'$node' service is registered.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128922,"level":"info","msg":"Service '$node' started.","nodeID":"gateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128924,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3000","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128926,"level":"info","msg":"'api' service is registered.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128926,"level":"info","msg":"Service 'api' started.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128926,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 523ms.","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013128948,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013128412,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128412,"level":"info","msg":"Namespace: <not defined>","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128412,"level":"info","msg":"Node ID: gateway_002","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128413,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128413,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128415,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128424,"level":"info","msg":"Validator: FastestValidator","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128426,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128428,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013128428,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128444,"level":"info","msg":"API Gateway server created.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128445,"level":"info","msg":"Register route to '/api'","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128464,"level":"info","msg":"    POST /api/:module/:action => api.request","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128464,"level":"info","msg":"","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128468,"level":"info","msg":"Connecting to the transporter...","nodeID":"gateway_002","ns":"","mod":"transit"}
+{"ts":1699013128477,"level":"info","msg":"NATS client v2 is connected.","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013128484,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128485,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128486,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128486,"level":"info","msg":"Node 'api_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128487,"level":"info","msg":"Node 'api_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128683,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128731,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128948,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128984,"level":"info","msg":"'$node' service is registered.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128984,"level":"info","msg":"Service '$node' started.","nodeID":"gateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013128986,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3000","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128987,"level":"info","msg":"'api' service is registered.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013128987,"level":"info","msg":"Service 'api' started.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013128988,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 524ms.","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013128949,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013129471,"level":"info","msg":"Node 'api_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013129623,"level":"info","msg":"Node 'api_003' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013128948,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013129471,"level":"info","msg":"Node 'api_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013129623,"level":"info","msg":"Node 'api_003' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013129471,"level":"info","msg":"Node 'api_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013129472,"level":"info","msg":"Node 'api_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013129933,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013129994,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013129257,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129257,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129257,"level":"info","msg":"Node ID: adminApi_001","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129258,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129258,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129259,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129275,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129276,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129277,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013129278,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129291,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminApi_001","ns":"","mod":"transit"}
+{"ts":1699013129300,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013129307,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129308,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129309,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129311,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129312,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129313,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129313,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129810,"level":"info","msg":"'$node' service is registered.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129810,"level":"info","msg":"'adminApi' service is registered.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013129810,"level":"info","msg":"Service '$node' started.","nodeID":"adminApi_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013129810,"level":"info","msg":"Service 'adminApi' started.","nodeID":"adminApi_001","ns":"","mod":"adminApi","svc":"adminApi"}
+{"ts":1699013129810,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 522ms.","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013129471,"level":"info","msg":"Node 'api_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013129472,"level":"info","msg":"Node 'api_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013129623,"level":"info","msg":"Node 'api_003' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013129994,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013130289,"level":"info","msg":"Node 'player_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013130294,"level":"info","msg":"Node 'player_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013129625,"level":"info","msg":"Node 'api_003' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013129933,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013130287,"level":"info","msg":"Node 'player_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013130294,"level":"info","msg":"Node 'player_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013129490,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129490,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129490,"level":"info","msg":"Node ID: adminGateway_001","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129491,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129491,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129491,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129509,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129510,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129511,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013129511,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129524,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129524,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129546,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129546,"level":"info","msg":"","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129549,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_001","ns":"","mod":"transit"}
+{"ts":1699013129556,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013129564,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129564,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129565,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129566,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129566,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129567,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129568,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013129575,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013130067,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013130067,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013130069,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013130070,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013130071,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013130071,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 525ms.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013129494,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129494,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129494,"level":"info","msg":"Node ID: adminGateway_002","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129494,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129494,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129495,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129509,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129510,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129511,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013129511,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129523,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129524,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129547,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129547,"level":"info","msg":"","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013129549,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_002","ns":"","mod":"transit"}
+{"ts":1699013129556,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013129563,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129564,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129565,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129566,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129566,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129568,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129569,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013129574,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013130067,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013130067,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013130069,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013130070,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013130070,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013130071,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 524ms.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013129932,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013129996,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013130287,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013130293,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013130565,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013130821,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013129933,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013129997,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130287,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130294,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130565,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130821,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013130287,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013130295,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013130565,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013130821,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013130565,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013131079,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013131080,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013130565,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013130821,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013131079,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013131080,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013130565,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013130821,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013131078,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013131079,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013130821,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013131079,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013130761,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013130762,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013130823,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013131078,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013131078,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013131079,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013131078,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013131079,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013131078,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013131080,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013146338,"level":"info","msg":"=> POST /player/login","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013146354,"level":"info","msg":"   Call 'api.request' action","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013146381,"level":"error","msg":"   Request error! ReferenceError : action is not defined \n ReferenceError: action is not defined\n    at Service.onAfterCall (/Users/daiyunchao/Documents/works/game-micro/gateway/services/gateway.service.js:55:99)\n    at Service.callAction (/Users/daiyunchao/Documents/works/game-micro/gateway/node_modules/moleculer-web/src/index.js:650:37)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async /Users/daiyunchao/Documents/works/game-micro/gateway/node_modules/moleculer-web/src/index.js:469:22 \nData: ","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013146383,"level":"info","msg":"<= 500 POST /api/player/login [+45.331 ms]","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013168955,"level":"info","msg":"=> POST /player/login","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013168968,"level":"info","msg":"   Call 'api.request' action","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013168980,"level":"error","msg":"   Request error! ReferenceError : action is not defined \n ReferenceError: action is not defined\n    at Service.onAfterCall (/Users/daiyunchao/Documents/works/game-micro/gateway/services/gateway.service.js:55:99)\n    at Service.callAction (/Users/daiyunchao/Documents/works/game-micro/gateway/node_modules/moleculer-web/src/index.js:650:37)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async /Users/daiyunchao/Documents/works/game-micro/gateway/node_modules/moleculer-web/src/index.js:469:22 \nData: ","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013168982,"level":"info","msg":"<= 500 POST /api/player/login [+28.253 ms]","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296170,"level":"info","msg":"Service '$node' stopped.","nodeID":"api_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013296170,"level":"info","msg":"Service 'api' stopped.","nodeID":"api_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296173,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296175,"level":"info","msg":"NATS connection closed.","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013296175,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296170,"level":"info","msg":"Service '$node' stopped.","nodeID":"api_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013296171,"level":"info","msg":"Service 'api' stopped.","nodeID":"api_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296173,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296175,"level":"info","msg":"NATS connection closed.","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013296175,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296173,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296444,"level":"info","msg":"Service '$node' stopped.","nodeID":"api_003","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013296444,"level":"info","msg":"Service 'api' stopped.","nodeID":"api_003","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296447,"level":"info","msg":"NATS connection closed.","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013296448,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296173,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013296447,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013296449,"level":"info","msg":"Service '$node' stopped.","nodeID":"gateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013296449,"level":"info","msg":"API Gateway stopped!","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296449,"level":"info","msg":"Service 'api' stopped.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296453,"level":"info","msg":"NATS connection closed.","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013296453,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013296446,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013296451,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013296173,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013296173,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013296446,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013296451,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013296717,"level":"info","msg":"Service '$node' stopped.","nodeID":"gateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013296717,"level":"info","msg":"API Gateway stopped!","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296717,"level":"info","msg":"Service 'api' stopped.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013296720,"level":"info","msg":"NATS connection closed.","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013296720,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013296447,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013296450,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013296719,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013296727,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013296174,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013296446,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013296451,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013296719,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013296727,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013296719,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013296727,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013296986,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013297005,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013297516,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminApi_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297516,"level":"info","msg":"Service 'adminApi' stopped.","nodeID":"adminApi_001","ns":"","mod":"adminApi","svc":"adminApi"}
+{"ts":1699013297519,"level":"info","msg":"NATS connection closed.","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013297520,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013296986,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013297005,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013297519,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013297559,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297559,"level":"info","msg":"API Gateway stopped!","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297559,"level":"info","msg":"Service 'api' stopped.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297563,"level":"info","msg":"NATS connection closed.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013297563,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013296758,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296758,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296758,"level":"info","msg":"Node ID: api_002","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296759,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296760,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296761,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296777,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296778,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296779,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013296779,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013296793,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_002","ns":"","mod":"transit"}
+{"ts":1699013296800,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013296808,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296809,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296810,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296811,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296812,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296812,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296813,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296986,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297005,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297306,"level":"info","msg":"'$node' service is registered.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297306,"level":"info","msg":"'api' service is registered.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297307,"level":"info","msg":"Service '$node' started.","nodeID":"api_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297307,"level":"info","msg":"Service 'api' started.","nodeID":"api_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297307,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 517ms.","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013297519,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297562,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013296759,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296759,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296759,"level":"info","msg":"Node ID: api_001","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296759,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296760,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296761,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296777,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296778,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296779,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013296779,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013296791,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_001","ns":"","mod":"transit"}
+{"ts":1699013296799,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013296807,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296808,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296808,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296809,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296810,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296811,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296811,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296986,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297005,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297305,"level":"info","msg":"'$node' service is registered.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297305,"level":"info","msg":"'api' service is registered.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297305,"level":"info","msg":"Service '$node' started.","nodeID":"api_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297305,"level":"info","msg":"Service 'api' started.","nodeID":"api_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297305,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 517ms.","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013297518,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013297562,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013296986,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013297005,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013297518,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013297562,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013297787,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297787,"level":"info","msg":"API Gateway stopped!","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297787,"level":"info","msg":"Service 'api' stopped.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297790,"level":"info","msg":"NATS connection closed.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013297790,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013296873,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296873,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296873,"level":"info","msg":"Node ID: api_003","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296875,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296875,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296876,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296895,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296897,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296898,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013296898,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013296910,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_003","ns":"","mod":"transit"}
+{"ts":1699013296919,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013296927,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296927,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296928,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296928,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296929,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296930,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296930,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013296986,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297005,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297426,"level":"info","msg":"'$node' service is registered.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297426,"level":"info","msg":"'api' service is registered.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297426,"level":"info","msg":"Service '$node' started.","nodeID":"api_003","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297426,"level":"info","msg":"Service 'api' started.","nodeID":"api_003","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297426,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 518ms.","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013297518,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297562,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297789,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013297119,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297119,"level":"info","msg":"Namespace: <not defined>","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297119,"level":"info","msg":"Node ID: gateway_001","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297119,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297120,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297121,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297135,"level":"info","msg":"Validator: FastestValidator","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297136,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297137,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013297137,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297152,"level":"info","msg":"API Gateway server created.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297153,"level":"info","msg":"Register route to '/api'","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297179,"level":"info","msg":"    POST /api/:module/:action => api.request","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297179,"level":"info","msg":"","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297183,"level":"info","msg":"Connecting to the transporter...","nodeID":"gateway_001","ns":"","mod":"transit"}
+{"ts":1699013297193,"level":"info","msg":"NATS client v2 is connected.","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013297199,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297202,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297202,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297203,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297204,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297251,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297284,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297519,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297562,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297700,"level":"info","msg":"'$node' service is registered.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297700,"level":"info","msg":"Service '$node' started.","nodeID":"gateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297703,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3000","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297705,"level":"info","msg":"'api' service is registered.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297705,"level":"info","msg":"Service 'api' started.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297705,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 526ms.","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013297789,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013297257,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297257,"level":"info","msg":"Namespace: <not defined>","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297257,"level":"info","msg":"Node ID: gateway_002","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297258,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297258,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297259,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297268,"level":"info","msg":"Validator: FastestValidator","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297269,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297270,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013297271,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297282,"level":"info","msg":"API Gateway server created.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297283,"level":"info","msg":"Register route to '/api'","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297298,"level":"info","msg":"    POST /api/:module/:action => api.request","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297298,"level":"info","msg":"","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297301,"level":"info","msg":"Connecting to the transporter...","nodeID":"gateway_002","ns":"","mod":"transit"}
+{"ts":1699013297310,"level":"info","msg":"NATS client v2 is connected.","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013297317,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297318,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297319,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297320,"level":"info","msg":"Node 'api_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297320,"level":"info","msg":"Node 'api_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297519,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297562,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297789,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297817,"level":"info","msg":"'$node' service is registered.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297818,"level":"info","msg":"Service '$node' started.","nodeID":"gateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013297820,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3000","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297821,"level":"info","msg":"'api' service is registered.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013297821,"level":"info","msg":"Service 'api' started.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013297822,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 524ms.","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013297789,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013298308,"level":"info","msg":"Node 'api_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013298435,"level":"info","msg":"Node 'api_003' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013298711,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013297789,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013298309,"level":"info","msg":"Node 'api_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013298435,"level":"info","msg":"Node 'api_003' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013298711,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013298308,"level":"info","msg":"Node 'api_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013298309,"level":"info","msg":"Node 'api_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013298711,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013298824,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013298066,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298066,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298066,"level":"info","msg":"Node ID: adminApi_001","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298067,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298067,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298068,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298085,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298086,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298088,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013298088,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298098,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminApi_001","ns":"","mod":"transit"}
+{"ts":1699013298107,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013298113,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298114,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298115,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298116,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298116,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298116,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298127,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298617,"level":"info","msg":"'$node' service is registered.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298617,"level":"info","msg":"'adminApi' service is registered.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013298617,"level":"info","msg":"Service '$node' started.","nodeID":"adminApi_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013298617,"level":"info","msg":"Service 'adminApi' started.","nodeID":"adminApi_001","ns":"","mod":"adminApi","svc":"adminApi"}
+{"ts":1699013298617,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 521ms.","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013298308,"level":"info","msg":"Node 'api_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013298309,"level":"info","msg":"Node 'api_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013298435,"level":"info","msg":"Node 'api_003' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013298825,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299027,"level":"info","msg":"Node 'player_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299115,"level":"info","msg":"Node 'player_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013298437,"level":"info","msg":"Node 'api_003' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013298711,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299025,"level":"info","msg":"Node 'player_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299115,"level":"info","msg":"Node 'player_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013298271,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298272,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298272,"level":"info","msg":"Node ID: adminGateway_001","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298272,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298272,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298273,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298288,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298289,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298290,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013298290,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298302,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298302,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298326,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298326,"level":"info","msg":"","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298328,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_001","ns":"","mod":"transit"}
+{"ts":1699013298336,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013298343,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298344,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298344,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298345,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298346,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298348,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298348,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298349,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298845,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298846,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013298847,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298849,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013298849,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298849,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 523ms.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013298304,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298304,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298304,"level":"info","msg":"Node ID: adminGateway_002","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298306,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298306,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298307,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298316,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298318,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298319,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013298319,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298331,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298331,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298345,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298345,"level":"info","msg":"","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298347,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_002","ns":"","mod":"transit"}
+{"ts":1699013298354,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013298360,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298361,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298362,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298363,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298363,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298364,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298365,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298365,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298865,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298865,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013298867,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298868,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013298869,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013298869,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 524ms.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013298826,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299025,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299115,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299296,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299620,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013298826,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299025,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299115,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299296,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299539,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299620,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299025,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299117,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299296,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299621,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299875,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013299296,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013299539,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013299875,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013299296,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299541,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299620,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299875,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013299296,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299541,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299620,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299876,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013299541,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013299622,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013299875,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013299540,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013299541,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013299620,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299875,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013299854,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013299875,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013304772,"level":"info","msg":"=> POST /player/login","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013304782,"level":"info","msg":"   Call 'api.request' action","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013304802,"level":"info","msg":"request: 08eab509-b0af-4c45-a56f-af9ece6ce9bc finish , module: player, action login,res: %j { code: 0, msg: '', data: { deviceId: '004', playerId: 6729263, playerData: '{\"level\":0,\"star\":0}' } }","nodeID":"gateway_001","ns":"","mod":"gatewayLogger"}
+{"ts":1699013304803,"level":"info","msg":"<= 200 POST /api/player/login [+31.871 ms]","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013357716,"level":"info","msg":"Service '$node' stopped.","nodeID":"api_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013357716,"level":"info","msg":"Service 'api' stopped.","nodeID":"api_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013357720,"level":"info","msg":"NATS connection closed.","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013357721,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013357716,"level":"info","msg":"Service '$node' stopped.","nodeID":"api_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013357716,"level":"info","msg":"Service 'api' stopped.","nodeID":"api_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013357721,"level":"info","msg":"NATS connection closed.","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013357721,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358000,"level":"info","msg":"Service '$node' stopped.","nodeID":"api_003","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013358000,"level":"info","msg":"Service 'api' stopped.","nodeID":"api_003","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358003,"level":"info","msg":"NATS connection closed.","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013358003,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358002,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358010,"level":"info","msg":"Service '$node' stopped.","nodeID":"gateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013358010,"level":"info","msg":"API Gateway stopped!","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358010,"level":"info","msg":"Service 'api' stopped.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358013,"level":"info","msg":"NATS connection closed.","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013358013,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013357720,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358001,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358013,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013357718,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358002,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358013,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358283,"level":"info","msg":"Service '$node' stopped.","nodeID":"gateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013358283,"level":"info","msg":"API Gateway stopped!","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358283,"level":"info","msg":"Service 'api' stopped.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358287,"level":"info","msg":"NATS connection closed.","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013358287,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358002,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358012,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358287,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358295,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013357719,"level":"info","msg":"Node 'api_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358002,"level":"info","msg":"Node 'api_003' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358013,"level":"info","msg":"Node 'gateway_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358286,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358295,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358287,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358295,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358552,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358563,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358811,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359076,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminApi_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013359076,"level":"info","msg":"Service 'adminApi' stopped.","nodeID":"adminApi_001","ns":"","mod":"adminApi","svc":"adminApi"}
+{"ts":1699013359079,"level":"info","msg":"NATS connection closed.","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013359079,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013358552,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358563,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358811,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359106,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013359106,"level":"info","msg":"API Gateway stopped!","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359106,"level":"info","msg":"Service 'api' stopped.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359109,"level":"info","msg":"NATS connection closed.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013359110,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013358166,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358166,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358166,"level":"info","msg":"Node ID: api_002","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358168,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358168,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358169,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358180,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358181,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358183,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013358183,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358198,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_002","ns":"","mod":"transit"}
+{"ts":1699013358210,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_002","ns":"","mod":"transporter"}
+{"ts":1699013358220,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358220,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358221,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358223,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358224,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358225,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358225,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358226,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358227,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358287,"level":"info","msg":"Node 'gateway_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358295,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358552,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358563,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358716,"level":"info","msg":"'$node' service is registered.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358716,"level":"info","msg":"'api' service is registered.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358716,"level":"info","msg":"Service '$node' started.","nodeID":"api_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013358716,"level":"info","msg":"Service 'api' started.","nodeID":"api_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358716,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 520ms.","nodeID":"api_002","ns":"","mod":"broker"}
+{"ts":1699013358811,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013359108,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013358217,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358217,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358217,"level":"info","msg":"Node ID: api_001","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358218,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358218,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358220,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358235,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358237,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358238,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013358239,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358252,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_001","ns":"","mod":"transit"}
+{"ts":1699013358287,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_001","ns":"","mod":"transporter"}
+{"ts":1699013358296,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358297,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358298,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358298,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358299,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358300,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358301,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358301,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358301,"level":"info","msg":"Node 'player_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358552,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358563,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358797,"level":"info","msg":"'$node' service is registered.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358797,"level":"info","msg":"'api' service is registered.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358797,"level":"info","msg":"Service '$node' started.","nodeID":"api_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013358797,"level":"info","msg":"Service 'api' started.","nodeID":"api_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358797,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 547ms.","nodeID":"api_001","ns":"","mod":"broker"}
+{"ts":1699013358812,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013359108,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013358552,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358563,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358811,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359108,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359337,"level":"info","msg":"Service '$node' stopped.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013359337,"level":"info","msg":"API Gateway stopped!","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359337,"level":"info","msg":"Service 'api' stopped.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359341,"level":"info","msg":"NATS connection closed.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013359341,"level":"info","msg":"ServiceBroker is stopped. Good bye.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013358449,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358449,"level":"info","msg":"Namespace: <not defined>","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358449,"level":"info","msg":"Node ID: api_003","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358450,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358450,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358452,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358464,"level":"info","msg":"Validator: FastestValidator","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358466,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358467,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013358467,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013358477,"level":"info","msg":"Connecting to the transporter...","nodeID":"api_003","ns":"","mod":"transit"}
+{"ts":1699013358487,"level":"info","msg":"NATS client v2 is connected.","nodeID":"api_003","ns":"","mod":"transporter"}
+{"ts":1699013358493,"level":"info","msg":"Node 'player_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358496,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358497,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358497,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358498,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358499,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358499,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358552,"level":"info","msg":"Node 'player_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358563,"level":"info","msg":"Node 'leaderboardCache_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358812,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358996,"level":"info","msg":"'$node' service is registered.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358996,"level":"info","msg":"'api' service is registered.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358997,"level":"info","msg":"Service '$node' started.","nodeID":"api_003","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013358997,"level":"info","msg":"Service 'api' started.","nodeID":"api_003","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358997,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 522ms.","nodeID":"api_003","ns":"","mod":"broker"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013359108,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013359340,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013358534,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358534,"level":"info","msg":"Namespace: <not defined>","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358534,"level":"info","msg":"Node ID: gateway_001","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358534,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358535,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358536,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358544,"level":"info","msg":"Validator: FastestValidator","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358545,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358546,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013358546,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013358559,"level":"info","msg":"API Gateway server created.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358559,"level":"info","msg":"Register route to '/api'","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358574,"level":"info","msg":"    POST /api/:module/:action => api.request","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358574,"level":"info","msg":"","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358578,"level":"info","msg":"Connecting to the transporter...","nodeID":"gateway_001","ns":"","mod":"transit"}
+{"ts":1699013358589,"level":"info","msg":"NATS client v2 is connected.","nodeID":"gateway_001","ns":"","mod":"transporter"}
+{"ts":1699013358598,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358599,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358600,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358601,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358602,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358812,"level":"info","msg":"Node 'leaderboard_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358841,"level":"info","msg":"Node 'leaderboard_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359098,"level":"info","msg":"'$node' service is registered.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359098,"level":"info","msg":"Service '$node' started.","nodeID":"gateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013359100,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3000","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359101,"level":"info","msg":"'api' service is registered.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359101,"level":"info","msg":"Service 'api' started.","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359101,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 526ms.","nodeID":"gateway_001","ns":"","mod":"broker"}
+{"ts":1699013359108,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359340,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013358798,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358799,"level":"info","msg":"Namespace: <not defined>","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358799,"level":"info","msg":"Node ID: gateway_002","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358799,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358799,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358800,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358808,"level":"info","msg":"Validator: FastestValidator","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358809,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358810,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013358810,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013358823,"level":"info","msg":"API Gateway server created.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358824,"level":"info","msg":"Register route to '/api'","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358837,"level":"info","msg":"    POST /api/:module/:action => api.request","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358837,"level":"info","msg":"","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013358841,"level":"info","msg":"Connecting to the transporter...","nodeID":"gateway_002","ns":"","mod":"transit"}
+{"ts":1699013358850,"level":"info","msg":"NATS client v2 is connected.","nodeID":"gateway_002","ns":"","mod":"transporter"}
+{"ts":1699013358856,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358858,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358859,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358859,"level":"info","msg":"Node 'api_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013358860,"level":"info","msg":"Node 'api_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359079,"level":"info","msg":"Node 'adminApi_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359108,"level":"info","msg":"Node 'adminGateway_001' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359340,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359359,"level":"info","msg":"'$node' service is registered.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359359,"level":"info","msg":"Service '$node' started.","nodeID":"gateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013359361,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3000","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359363,"level":"info","msg":"'api' service is registered.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359363,"level":"info","msg":"Service 'api' started.","nodeID":"gateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359363,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 526ms.","nodeID":"gateway_002","ns":"","mod":"broker"}
+{"ts":1699013359340,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013359802,"level":"info","msg":"Node 'api_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360004,"level":"info","msg":"Node 'api_003' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360107,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013359340,"level":"info","msg":"Node 'adminGateway_002' disconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013359719,"level":"info","msg":"Node 'api_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360004,"level":"info","msg":"Node 'api_003' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360108,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013359719,"level":"info","msg":"Node 'api_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013359801,"level":"info","msg":"Node 'api_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360107,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360368,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360401,"level":"info","msg":"Node 'player_001' connected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013359501,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359501,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359501,"level":"info","msg":"Node ID: adminApi_001","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359502,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359502,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359503,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359512,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359513,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359514,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013359515,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359528,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminApi_001","ns":"","mod":"transit"}
+{"ts":1699013359538,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminApi_001","ns":"","mod":"transporter"}
+{"ts":1699013359544,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359545,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359546,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359547,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359548,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013359548,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360050,"level":"info","msg":"'$node' service is registered.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360050,"level":"info","msg":"'adminApi' service is registered.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360050,"level":"info","msg":"Service '$node' started.","nodeID":"adminApi_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013360050,"level":"info","msg":"Service 'adminApi' started.","nodeID":"adminApi_001","ns":"","mod":"adminApi","svc":"adminApi"}
+{"ts":1699013360050,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 525ms.","nodeID":"adminApi_001","ns":"","mod":"broker"}
+{"ts":1699013359719,"level":"info","msg":"Node 'api_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359802,"level":"info","msg":"Node 'api_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360006,"level":"info","msg":"Node 'api_003' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360368,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360401,"level":"info","msg":"Node 'player_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013359635,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359635,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359635,"level":"info","msg":"Node ID: adminGateway_001","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359636,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359636,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359637,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359643,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359645,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359645,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013359645,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013359656,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359657,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359672,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359672,"level":"info","msg":"","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359675,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_001","ns":"","mod":"transit"}
+{"ts":1699013359682,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_001","ns":"","mod":"transporter"}
+{"ts":1699013359689,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359690,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359690,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359691,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359692,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359693,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359694,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013359694,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013360191,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013360191,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_001","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013360193,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013360195,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013360195,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013360196,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 524ms.","nodeID":"adminGateway_001","ns":"","mod":"broker"}
+{"ts":1699013360006,"level":"info","msg":"Node 'api_003' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013360107,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013360402,"level":"info","msg":"Node 'player_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013360648,"level":"info","msg":"Node 'player_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013360677,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013359837,"level":"info","msg":"Moleculer v0.14.31 is starting...","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359837,"level":"info","msg":"Namespace: <not defined>","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359837,"level":"info","msg":"Node ID: adminGateway_002","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359838,"level":"info","msg":"Strategy: RoundRobinStrategy","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359838,"level":"info","msg":"Discoverer: LocalDiscoverer","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359839,"level":"info","msg":"Serializer: JSONSerializer","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359845,"level":"info","msg":"Validator: FastestValidator","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359846,"level":"info","msg":"Registered 13 middleware(s).","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359847,"level":"info","msg":"NATS lib version: 2.17.0","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013359847,"level":"info","msg":"Transporter: NatsTransporter","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013359857,"level":"info","msg":"API Gateway server created.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359858,"level":"info","msg":"Register route to '/admin_api'","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359869,"level":"info","msg":"    POST /admin_api/:module/:action => adminApi.request","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359869,"level":"info","msg":"","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013359871,"level":"info","msg":"Connecting to the transporter...","nodeID":"adminGateway_002","ns":"","mod":"transit"}
+{"ts":1699013359879,"level":"info","msg":"NATS client v2 is connected.","nodeID":"adminGateway_002","ns":"","mod":"transporter"}
+{"ts":1699013359886,"level":"info","msg":"Node 'api_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359886,"level":"info","msg":"Node 'player_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359887,"level":"info","msg":"Node 'gateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359888,"level":"info","msg":"Node 'api_003' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359889,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359891,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359891,"level":"info","msg":"Node 'api_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013359891,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013360386,"level":"info","msg":"'$node' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013360386,"level":"info","msg":"Service '$node' started.","nodeID":"adminGateway_002","ns":"","mod":"$node","svc":"$node"}
+{"ts":1699013360387,"level":"info","msg":"API Gateway listening on http://0.0.0.0:3001","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013360389,"level":"info","msg":"'api' service is registered.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013360389,"level":"info","msg":"Service 'api' started.","nodeID":"adminGateway_002","ns":"","mod":"api","svc":"api"}
+{"ts":1699013360389,"level":"info","msg":"✔ ServiceBroker with 2 service(s) started successfully in 520ms.","nodeID":"adminGateway_002","ns":"","mod":"broker"}
+{"ts":1699013360370,"level":"info","msg":"Node 'gateway_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360402,"level":"info","msg":"Node 'player_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360648,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360677,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360921,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013361054,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013360370,"level":"info","msg":"Node 'gateway_002' connected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360402,"level":"info","msg":"Node 'player_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360648,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360677,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360920,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013361054,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013361201,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013360650,"level":"info","msg":"Node 'player_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360677,"level":"info","msg":"Node 'leaderboardCache_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360920,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013361055,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013361202,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013361396,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_003","ns":"","mod":"registry"}
+{"ts":1699013360648,"level":"info","msg":"Node 'player_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360677,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360920,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013361202,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013361397,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminApi_001","ns":"","mod":"registry"}
+{"ts":1699013360648,"level":"info","msg":"Node 'player_002' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360677,"level":"info","msg":"Node 'leaderboardCache_001' connected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360921,"level":"info","msg":"Node 'leaderboard_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013361055,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013361202,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013361396,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"gateway_001","ns":"","mod":"registry"}
+{"ts":1699013360921,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013361054,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013361395,"level":"info","msg":"Node 'adminGateway_002' connected.","nodeID":"adminGateway_001","ns":"","mod":"registry"}
+{"ts":1699013360920,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013361055,"level":"info","msg":"Node 'adminApi_001' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013361202,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013361400,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"gateway_002","ns":"","mod":"registry"}
+{"ts":1699013360921,"level":"info","msg":"Node 'leaderboard_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013360939,"level":"info","msg":"Node 'leaderboard_002' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013361056,"level":"info","msg":"Node 'adminApi_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013361201,"level":"info","msg":"Node 'adminGateway_001' connected.","nodeID":"adminGateway_002","ns":"","mod":"registry"}
+{"ts":1699013361201,"level":"info","msg":"Node 'adminGateway_001' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013361399,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_002","ns":"","mod":"registry"}
+{"ts":1699013361397,"level":"info","msg":"Node 'adminGateway_002' reconnected.","nodeID":"api_001","ns":"","mod":"registry"}
+{"ts":1699013365190,"level":"info","msg":"=> POST /player/login","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013365203,"level":"info","msg":"request: 8706366d-8e30-4123-9c71-20a04ff8bcab start , module: player, action login,params: %j { deviceId: '004', module: 'player', action: 'login' }","nodeID":"gateway_001","ns":"","mod":"gatewayLogger"}
+{"ts":1699013365203,"level":"info","msg":"   Call 'api.request' action","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}
+{"ts":1699013365227,"level":"info","msg":"request: 8706366d-8e30-4123-9c71-20a04ff8bcab finish , module: player, action login,res: %j { code: 0, msg: '', data: { deviceId: '004', playerId: 6729263, playerData: '{\"level\":0,\"star\":0}' } }","nodeID":"gateway_001","ns":"","mod":"gatewayLogger"}
+{"ts":1699013365229,"level":"info","msg":"<= 200 POST /api/player/login [+39.191 ms]","nodeID":"gateway_001","ns":"","mod":"api","svc":"api"}

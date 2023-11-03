@@ -13,8 +13,20 @@ const broker = new ServiceBroker({
     transporterOptions: {
         nats: nats,
     },
+    logger: {
+        type: "File",
+        options: {
+            level: "info",
+            folder: "../logs",
+            filename: "moleculer-{date}.log",
+            formatter: "json",
+            objectPrinter: null,
+            eol: "\n",
+            interval: 1 * 1000
+        }
+    }
 });
-
+const myLogger = broker.getLogger('adminApiLogger');
 broker.createService({
     name: "adminApi",
     actions: {
