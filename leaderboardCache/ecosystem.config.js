@@ -9,7 +9,7 @@ module.exports = {
         max_memory_restart: "1G",
         env: {
           NODE_ENV: "production",
-          NODE_ID: "leaderboard_001"
+          NODE_ID: "leaderboardCache_001"
         }
       }
     ]
