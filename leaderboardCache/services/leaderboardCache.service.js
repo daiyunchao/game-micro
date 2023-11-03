@@ -9,7 +9,7 @@ const nats = NATS.connect();
 
 // 创建服务代理
 const broker = new ServiceBroker({
-    nodeID: "leaderboard",
+    nodeID: "leaderboardCache",
     transporter: "NATS",
     transporterOptions: {
         nats: nats,
@@ -18,19 +18,18 @@ const broker = new ServiceBroker({
 
 // 创建用户服务
 broker.createService({
-    name: "leaderboard",
+    name: "leaderboardCache",
     started() {
 
     },
     actions: {
-        async getList(ctx) {
+        async getCacheList(ctx) {
             //获取排行榜列表
-            return await Server.getLeaderboardList(ctx,broker);
+            return await Server.getCacheList(ctx,broker);
         },
-        async updateData(ctx) {
+        async updateCacheData(ctx) {
             //更新我在排行榜中的等级
-          
-            return await Server.updateLeaderboard(ctx,broker);
+            return await Server.updateCacheLeaderboard(ctx,broker);
         }
     }
 });
@@ -38,7 +37,10 @@ broker.createService({
 // 启动服务代理
 broker.start().then(async () => {
     try {
+        //连接Mongodb
         await Init.connectMongo();
+        //读取数据到缓存
+        await Server.getLeaderboardList();
     } catch (error) {
         console.error("连接数据失败,进程退出");
         process.exit();
