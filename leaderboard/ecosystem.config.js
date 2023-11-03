@@ -3,7 +3,6 @@ module.exports = {
       {
         name: "game-micro-leaderboard-001",
         script: "services/leaderboard.service.js",
-        instances: "max",
         exec_mode: "cluster",
         autorestart: true,
         watch: true,
