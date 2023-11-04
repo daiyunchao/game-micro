@@ -62,6 +62,17 @@ broker.createService({
                 }
             },
         ],
+        rateLimit: {
+            window: 60 * 1000,
+            limit: 30,
+            headers: true,
+            key: (req) => {
+                return req.headers["x-forwarded-for"] ||
+                    req.connection.remoteAddress ||
+                    req.socket.remoteAddress ||
+                    req.connection.socket.remoteAddress;
+            },
+        }
     },
 });
 
