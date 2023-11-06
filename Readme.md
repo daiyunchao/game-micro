@@ -23,8 +23,9 @@
 
 ``` sh
 docker pull nats
-docker run -p 4222:4222 --name nats-server -d nats
+docker run -p 4222:4222 -p 8222:8222 --name nats-server -d nats
 ```
+安装后可访问8222端口进入管理页面
 
 3. 安装`mongodb`
 
