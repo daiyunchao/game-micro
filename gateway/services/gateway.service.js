@@ -33,7 +33,7 @@ const myLogger = broker.getLogger('gatewayLogger');
 broker.createService({
     mixins: [ApiGatewayService],
     settings: {
-        prot: 3000,
+        port: 3000,
         routes: [
             {
                 path: "/api",
